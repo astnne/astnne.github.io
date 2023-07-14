@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" style="margin: auto;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1026039160634613851/1121317063332483184/IMG_2607.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="nav justify-content-center mt-3 text-bg-light border-bottom">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-between text-bg-light">
+            <div class="container-fluid">
+            <img src="https://cdn.discordapp.com/attachments/1026039160634613851/1121317063332483184/IMG_2607.jpg" class="mb-2" width="40" height="40" alt="img">
+            <a class="navbar-brand" href="/"><span class="fs-5 fw-medium ms-2 me-5">Austin Ng</span></a>
+            <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav container-fluid">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link active" href="/math">Math</a>
+                <a class="nav-link active" href="/cubing">Cubing</a>
+                <a class="nav-link active" href="/programming">Programming</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <div class="mx-auto" style="width: 75%;">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <div class="mt-5 text-bg-secondary p-5">
+      <div class="card-body">
+        <h3>Austin Ng</h3>
+        <p>Made by Austin Ng with Flask on July 12, 2023</p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+  </body>
+</html>
