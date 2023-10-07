@@ -5,8 +5,13 @@ html {
 
 nav {
     padding-left: 3rem;
-    justify-content: flex;
+    display: flex;
+    justify-content: start;
     align-items: center;
+}
+
+.title {
+    padding-right: 15px;
 }
 
 .container {
@@ -20,4 +25,19 @@ nav {
     color: black;
 } .links:visited {
     color: black;
+}
+
+.searchBar {
+    background: transparent;
+    border: 1px;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    width: 100px;
+    transition: 150ms;
+} .searchBar:focus, .searchBar:hover {
+    padding: 7px;
+    border: 1px solid;
+    width: 150px;
+    background: transparent;
 }
