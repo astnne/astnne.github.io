@@ -104,6 +104,19 @@ p {
 
 
 @media screen and (min-width: 768px) {
+    html {
+        font-family: 'Lato', sans-serif;
+        background-color: burlywood;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
     .navbar {
         padding-left: 3rem;
         position: fixed;
