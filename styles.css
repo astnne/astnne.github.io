@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 
 .title {
     color: white;
-    font-size: 7vw;
+    font-size: 6vw;
     font-style: bold;
     font-weight: bolder;
 }
@@ -92,7 +92,7 @@ body::-webkit-scrollbar {
     position: relative;
     border: 1px solid white;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 5px;
     padding-left: 15px;
     margin-bottom: 15px;
     width: 95%;
@@ -129,7 +129,7 @@ p {
     
     .title {
         color: white;
-        font-size: 3vw;
+        font-size: 2.5vw;
         font-style: bold;
         font-weight: bolder;
     }
@@ -189,7 +189,7 @@ p {
 
     .recentTab {
         color: black;
-        font-size: 2vw;
+        font-size: 1.75vw;
         font-weight: bold;
         margin-left: 15px;
         margin-bottom: -15px;  
