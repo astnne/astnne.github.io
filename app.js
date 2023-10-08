@@ -1,3 +1,3 @@
 function follow() {
-    open("https://www.instagram.com/astnne.en/", "_blank")
+    open("https://astnne.github.io/names", "_blank")
 }
