@@ -1,0 +1,189 @@
+html {
+    font-family: 'Lato', sans-serif;
+    background-color: burlywood;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    padding-left: 1rem;
+    position: fixed;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(3px); 
+}
+
+.title {
+    color: white;
+    font-size: 7vw;
+    font-style: bold;
+    font-weight: bolder;
+}
+
+.follow {
+    padding: 0.25rem;
+    border: none;
+    border-radius: 10px;
+    font-size: smaller;
+} .follow:hover {
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+}
+
+.pfp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0px, -65%);
+    width: 20%;  
+    border: 5px solid burlywood;
+    border-radius: 30px;
+    margin-bottom: -15%;
+}
+
+.centTitle {
+    color: black;
+    font-size: 10vw;
+    font-weight: bold;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.description {
+    color: black;
+    padding-top: 10px;
+    font-size: 5vw;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container {
+    padding: 20px 30px 0px 30px;
+}
+
+.topBox {
+    position: relative;
+    border-radius: 15px;
+    margin:     30px;
+    width: 50%;  
+}
+
+.box {
+    position: relative;
+    left: 10%;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 10px 10px lightgray;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    width: 75%;
+}
+
+p {
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        padding-left: 3rem;
+        position: fixed;
+        display: flex;
+        width: 95%;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(3px); 
+    }
+    
+    .title {
+        color: white;
+        font-size: 3vw;
+        font-style: bold;
+        font-weight: bolder;
+    }
+    
+    .follow {
+        padding: 0.75rem;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+    } .follow:hover {
+        cursor: pointer;
+    }
+    
+    .banner {
+        width: 100%;
+    }
+    
+    .pfp {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translate(0px, -65%);
+        width: 7%;  
+        border: 5px solid burlywood;
+        border-radius: 30px;
+        margin-bottom: -5%;
+    }
+    
+    .centTitle {
+        color: black;
+        font-size: 2.5vw;
+        font-weight: bold;
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .description {
+        color: black;
+        padding-top: 10px;
+        font-size: 1vw;
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .container {
+        padding: 30px;
+    }
+    
+    .topBox {
+        position: relative;
+        left: 21%;
+        border-radius: 15px;
+        margin: 50px;
+        width: 50%;  
+    }
+    
+    .box {
+        position: relative;
+        left: 21%;
+        border: 1px solid white;
+        background-color: white;
+        box-shadow: 10px 10px lightgray;
+        border-radius: 15px;
+        padding: 15px;
+        margin: 50px;
+        width: 50%;
+    }
+    
+    p {
+        font-weight: bold;
+    }
+    
+}
