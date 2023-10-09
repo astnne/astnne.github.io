@@ -93,12 +93,12 @@ body {
     border: 1px solid white;
     background-color: white;
     border-radius: 5px;
-    padding: 0px 15px 15px;
+    padding: 15px;
     margin-bottom: 15px;
     width: 95%;
 }
 
-h2 {
+.boxes {
     display: flex;
     align-items: center;
 }
@@ -107,6 +107,15 @@ h2 {
     width: 40px;
     border-radius: 50px;
     margin-right: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.tinyIcon {
+    width: 16px;
+    margin-left: 5px;
 }
 
 .centList {
@@ -221,7 +230,7 @@ ul {
         background-color: white;
         box-shadow: 5px 5px lightgray;
         border-radius: 15px;
-        padding: 0px 15px 15px;
+        padding: 15px;
         margin: 30px;
         width: 50%;
     }
@@ -235,6 +244,10 @@ ul {
         width: 40px;
         border-radius: 50px;
         margin-right: 10px;
+    }
+
+    .name {
+        font-weight: bold;
     }
 
     .centList {
