@@ -1,13 +1,12 @@
 html {
-    font-family: 'Lato', sans-serif;
-    background-color: burlywood;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
-}
-
-body::-webkit-scrollbar {
+} body::-webkit-scrollbar {
     display: none;
 }
 
@@ -38,8 +37,12 @@ body::-webkit-scrollbar {
 }
 
 .banner {
-    width: 100%;
-    height: 30%;
+    width: 175%;
+}
+
+.heading {
+    background-color: white;
+    padding-bottom: 10px;
 }
 
 .pfp {
@@ -48,8 +51,8 @@ body::-webkit-scrollbar {
     margin-right: auto;
     transform: translate(0px, -65%);
     width: 20%;  
-    border: 5px solid burlywood;
-    border-radius: 30px;
+    border: 5px solid white;
+    border-radius: 70px;
     margin-bottom: -15%;
 }
 
@@ -65,12 +68,17 @@ body::-webkit-scrollbar {
 
 .description {
     color: black;
-    padding-top: 10px;
     font-size: 4vw;
     display: block; 
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.container {
+    background-color: #e6e6e6;
+    padding: 10px;
+    padding-right: 25px;
 }
 
 .topBox {
@@ -80,43 +88,43 @@ body::-webkit-scrollbar {
     width: 50%;  
 }
 
-.recentTab {
-    color: black;
-    font-size: 6vw;
-    font-weight: bold;
-    margin-left: -15px;
-    margin-bottom: -15px;  
-}
-
 .box {
     position: relative;
     border: 1px solid white;
     background-color: white;
     border-radius: 5px;
-    padding-left: 15px;
+    padding: 0px 15px 15px;
     margin-bottom: 15px;
     width: 95%;
 }
 
-p {
-    font-weight: bold;
+.centList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-20px);
 }
 
+ul {
+    list-style-type: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0px;
+    text-decoration: none;
+  }
 
+/* MOBILE --> */
+
+/* DESKTOP --> */
 @media screen and (min-width: 768px) {
-    html {
-        font-family: 'Lato', sans-serif;
-        background-color: burlywood;
-    }
-    
-    body {
-        margin: 0;
-    }
-    
-    body::-webkit-scrollbar {
-        display: none;
-    }
-
     .navbar {
         padding-left: 3rem;
         position: fixed;
@@ -146,6 +154,11 @@ p {
     .banner {
         width: 100%;
     }
+
+    .heading {
+        background-color: white;
+        padding: 0px 15px 15px;
+    }
     
     .pfp {
         display: block;
@@ -153,8 +166,8 @@ p {
         margin-right: auto;
         transform: translate(0px, -65%);
         width: 7%;  
-        border: 5px solid burlywood;
-        border-radius: 30px;
+        border: 5px solid white;
+        border-radius: 70px;
         margin-bottom: -5%;
     }
     
@@ -169,15 +182,18 @@ p {
     }
     
     .description {
-        color: black;
-        padding-top: 10px;
-        font-size: 1.25vw;
+        color: rgb(79, 79, 79);
+        font-size: 1.15vw;
         display: block; 
         margin-left: auto;
         margin-right: auto;
         text-align: center;
     }
     
+    .container {
+        background-color: #e6e6e6;
+        padding-top: 10px;
+    }
     
     .topBox {
         position: relative;
@@ -186,29 +202,39 @@ p {
         margin: 50px;
         width: 50%;  
     }
-
-    .recentTab {
-        color: black;
-        font-size: 1.75vw;
-        font-weight: bold;
-        margin-left: 15px;
-        margin-bottom: -15px;  
-    }
     
     .box {
         position: relative;
         left: 21%;
         border: 1px solid white;
         background-color: white;
-        box-shadow: 10px 10px lightgray;
+        box-shadow: 5px 5px lightgray;
         border-radius: 15px;
-        padding: 15px;
-        margin: 50px;
+        padding: 0px 15px 15px;
+        margin: 30px;
         width: 50%;
     }
-    
-    p {
-        font-weight: bold;
+
+    .centList {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-30px);
     }
-    
+
+    ul {
+        list-style-type: none;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 0px 16px 0px;
+        text-decoration: none;
+      }
 }
