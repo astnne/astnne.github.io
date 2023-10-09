@@ -51,7 +51,7 @@ body {
     margin-right: auto;
     transform: translate(0px, -65%);
     width: 20%;  
-    border: 5px solid white;
+    border: 7px solid white;
     border-radius: 70px;
     margin-bottom: -15%;
 }
@@ -166,7 +166,7 @@ ul {
         margin-right: auto;
         transform: translate(0px, -65%);
         width: 7%;  
-        border: 5px solid white;
+        border: 7px solid white;
         border-radius: 70px;
         margin-bottom: -5%;
     }
